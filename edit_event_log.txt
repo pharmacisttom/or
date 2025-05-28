@@ -1,0 +1,155 @@
+POST Data: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [booking_type] => 1
+    [patient_id] => 10
+    [surgery_type] => Elective
+    [investigations] => Array
+        (
+            [0] => CBC
+            [1] => BUN_CR
+            [2] => FBS
+        )
+
+    [invest_other_text] => 
+    [consult_department] => 7
+    [blood_prc] => 1
+    [blood_prc_unit] => 2
+    [blood_ffp] => 1
+    [blood_ffp_unit] => 2
+    [blood_other_text] => 
+    [patient_type] => OPD
+    [anesthesia] => LA
+    [dx] => ปปปปปปปปปปปปปปปปปป
+    [op] => ปปปปปปปปปปปปปปป
+    [surgeon] => 64168
+    [start_datetime] => 2025-04-03T00:00
+    [end_datetime] => 2025-04-04T00:00
+    [note] => ปปปปปปปปปปปปป
+    [post_surgery_booking] => ICU
+    [booked_by] => 12345
+    [department] => 4
+    [department_or] => สูตินรีเวช
+    [id] => 27
+)
+
+Success: Data updated/deleted for ID=27
+POST Data: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [booking_type] => 1
+    [patient_id] => 9
+    [surgery_type] => Elective
+    [investigations] => Array
+        (
+            [0] => CBC
+            [1] => BUN_CR
+            [2] => Electrolyte
+        )
+
+    [invest_other_text] => 
+    [consult_department] => 
+    [blood_prc_unit] => 
+    [blood_ffp_unit] => 
+    [blood_other_text] => 
+    [patient_type] => OPD
+    [anesthesia] => LA
+    [dx] => xx
+    [op] => xx
+    [surgeon] => 64168
+    [start_datetime] => 2025-04-09T00:00
+    [end_datetime] => 2025-04-11T00:00
+    [note] => xxx
+    [post_surgery_booking] => IPD
+    [booked_by] => 12345
+    [department] => 4
+    [department_or] => สูตินรีเวช
+    [id] => 28
+)
+
+Investigations JSON: ["CBC","BUN_CR","Electrolyte"]
+Consult Department: 
+Blood Booking JSON: []
+Success: Data updated/deleted for ID=28
+POST Data: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [booking_type] => 2
+    [patient_id] => 9
+    [surgery_type] => Elective
+    [investigations] => Array
+        (
+            [0] => CBC
+            [1] => BUN_CR
+            [2] => Electrolyte
+        )
+
+    [invest_other_text] => 
+    [consult_department] => 
+    [blood_prc_unit] => 
+    [blood_ffp_unit] => 
+    [blood_other_text] => 
+    [patient_type] => IPD
+    [anesthesia] => LA
+    [dx] => ผผ
+    [op] => ผผ
+    [surgeon] => 64168
+    [start_datetime] => 2025-04-11T00:00
+    [end_datetime] => 2025-04-12T00:00
+    [note] => ปปป
+    [post_surgery_booking] => ICU
+    [booked_by] => 12345
+    [department] => 5
+    [department_or] => สูตินรีเวช
+    [id] => 29
+)
+
+Investigations JSON: ["CBC","BUN_CR","Electrolyte"]
+Consult Department: 
+Blood Booking JSON: []
+Success: Data updated/deleted for ID=29
+POST Data: Array
+(
+    [patient_id] => 14
+    [surgery_type] => Elective
+    [investigations] => Array
+        (
+            [0] => CBC
+            [1] => BUN_CR
+            [2] => Electrolyte
+            [3] => FBS
+            [4] => PT_PTT_INR
+            [5] => LFT
+            [6] => Anti_HIV
+            [7] => CXR
+            [8] => EKG
+            [9] => HBA1C
+        )
+
+    [invest_other_text] => 
+    [consult_department] => 
+    [blood_prc] => 1
+    [blood_prc_unit] => 2
+    [blood_ffp] => 1
+    [blood_ffp_unit] => 2
+    [blood_other_text] => 
+    [patient_type] => OPD
+    [anesthesia] => LA
+    [dx] => ปปปปปปปปปปปปปปป
+    [op] => ปปปปปปปปปปปปปป
+    [surgeon] => 56654
+    [start_datetime] => 2025-04-17T17:00
+    [end_datetime] => 2025-04-18T18:00
+    [note] => ปปปปปปปปปปปป
+    [post_surgery_booking] => ICU
+    [booked_by] => 12345
+    [department] => 3
+    [department_or] => ศัลยกรรม
+    [delete] => on
+    [id] => 39
+)
+
+Investigations JSON: ["CBC","BUN_CR","Electrolyte","FBS","PT_PTT_INR","LFT","Anti_HIV","CXR","EKG","HBA1C"]
+Consult Department: 
+Blood Booking JSON: {"PRC":2,"FFP":2}
+Success: Data updated/deleted for ID=39

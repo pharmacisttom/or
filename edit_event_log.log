@@ -1,0 +1,195 @@
+POST data received: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [patient_id] => 2
+    [surgery_type] => Elective
+    [patient_type] => OPD
+    [anesthesia] => LA
+    [dx] => ปปปปปปปปปปปปปปปปป
+    [op] => ปปปปปปปปปปปปปปปปปปปป
+    [surgeon] => 64168
+    [start_datetime] => 2025-04-17T00:00
+    [end_datetime] => 2025-04-18T00:00
+    [note] => xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    [post_surgery_booking] => ICU
+    [booked_by] => 12345
+    [department] => 4
+    [department_or] => สูตินรีเวช
+    [id] => 24
+)
+Missing or empty field: booking_typeRequired fields missing.POST data received: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [patient_id] => 2
+    [surgery_type] => Elective
+    [patient_type] => OPD
+    [anesthesia] => LA
+    [dx] => ปปปปปปปปปปปปปปปปป
+    [op] => ปปปปปปปปปปปปปปปปปปปป
+    [surgeon] => 64168
+    [start_datetime] => 2025-04-17T00:00
+    [end_datetime] => 2025-04-18T00:00
+    [note] => xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    [post_surgery_booking] => IPD
+    [booked_by] => 12345
+    [department] => 4
+    [department_or] => สูตินรีเวช
+    [id] => 24
+)
+Missing or empty field: booking_typeRequired fields missing.POST data received: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [booking_type] => 1
+    [patient_id] => 6
+    [surgery_type] => Elective
+    [patient_type] => OPD
+    [anesthesia] => LA
+    [dx] => xxxxxxxxxxxx
+    [op] => xxxxxxxxxxxx
+    [surgeon] => 57491
+    [start_datetime] => 2025-04-09T02:30
+    [end_datetime] => 2025-04-09T15:50
+    [note] => xxxxxxxxxxxxx
+    [post_surgery_booking] => ICU
+    [booked_by] => 12345
+    [department] => 2
+    [department_or] => ศัลยกรรม
+    [id] => 23
+)
+Processed data: ID=23, PatientID=6, Title=การผ่าตัดเฉพาะทาง, BookingType=1, Start=2025-04-09 02:30:00, End=2025-04-09 15:50:00, PostSurgery=ICUUpdate successful for ID=23POST data received: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [booking_type] => 1
+    [patient_id] => 6
+    [surgery_type] => Elective
+    [patient_type] => OPD
+    [anesthesia] => LA
+    [dx] => xxxxxxxxxxxx
+    [op] => xxxxxxxxxxxx
+    [surgeon] => 57491
+    [start_datetime] => 2025-04-09T02:30
+    [end_datetime] => 2025-04-09T15:50
+    [note] => xxxxxxxxxxxxx
+    [post_surgery_booking] => ICU
+    [booked_by] => 12345
+    [department] => 2
+    [department_or] => สูตินรีเวช
+    [id] => 23
+)
+Processed data: ID=23, PatientID=6, Title=การผ่าตัดเฉพาะทาง, BookingType=1, Start=2025-04-09 02:30:00, End=2025-04-09 15:50:00, PostSurgery=ICUUpdate successful for ID=23POST data received: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [booking_type] => 2
+    [patient_id] => 2
+    [surgery_type] => Elective
+    [patient_type] => OPD
+    [anesthesia] => LA
+    [dx] => ปปปปปปปปปปปปปปปปป
+    [op] => ปปปปปปปปปปปปปปปปปปปป
+    [surgeon] => 64168
+    [start_datetime] => 2025-04-17T00:00
+    [end_datetime] => 2025-04-18T00:00
+    [note] => xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    [post_surgery_booking] => ICU
+    [booked_by] => 12345
+    [department] => 4
+    [department_or] => ศัลยกรรม
+    [id] => 24
+)
+Processed data: ID=24, PatientID=2, Title=การผ่าตัดเฉพาะทาง, BookingType=2, Start=2025-04-17 00:00:00, End=2025-04-18 00:00:00, PostSurgery=ICUUpdate successful for ID=24POST data received: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [booking_type] => 1
+    [patient_id] => 9
+    [surgery_type] => Elective
+    [patient_type] => OPD
+    [anesthesia] => LA
+    [dx] => xxxxx
+    [op] => xxxxxxxxx
+    [surgeon] => 64168
+    [start_datetime] => 2025-04-01T00:00
+    [end_datetime] => 2025-04-01T13:40
+    [note] => xxx
+    [post_surgery_booking] => Chantara
+    [booked_by] => 12345
+    [department] => 4
+    [department_or] => สูตินรีเวช
+    [id] => 22
+)
+Processed data: ID=22, PatientID=9, Title=การผ่าตัดเฉพาะทาง, BookingType=1, Start=2025-04-01 00:00:00, End=2025-04-01 13:40:00, PostSurgery=ChantaraUpdate successful for ID=22POST data received: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [booking_type] => 1
+    [patient_id] => 9
+    [surgery_type] => Elective
+    [investigations] => Array
+        (
+            [0] => CBC
+            [1] => BUN_CR
+            [2] => Electrolyte
+            [3] => FBS
+            [4] => PT_PTT_INR
+            [5] => LFT
+            [6] => Anti_HIV
+            [7] => CXR
+            [8] => EKG
+            [9] => HBA1C
+        )
+
+    [invest_other_text] => 
+    [consult_department] => 
+    [blood_prc] => on
+    [blood_prc_unit] => 2
+    [blood_ffp] => on
+    [blood_ffp_unit] => 
+    [blood_other_text] => 
+    [patient_type] => OPD
+    [anesthesia] => LA
+    [dx] => xxxxx
+    [op] => xxxxxxxxx
+    [surgeon] => 64168
+    [start_datetime] => 2025-04-01T00:00
+    [end_datetime] => 2025-04-01T13:40
+    [note] => xxx
+    [post_surgery_booking] => Chantara
+    [booked_by] => 12345
+    [department] => 4
+    [department_or] => สูตินรีเวช
+    [id] => 22
+)
+Processed data: ID=22, PatientID=9, Title=การผ่าตัดเฉพาะทาง, BookingType=1, Start=2025-04-01 00:00:00, End=2025-04-01 13:40:00, PostSurgery=ChantaraUpdate successful for ID=22POST data received: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [booking_type] => 1
+    [patient_id] => 9
+    [surgery_type] => Elective
+    [investigations] => Array
+        (
+            [0] => CBC
+            [1] => BUN_CR
+            [2] => Electrolyte
+            [3] => FBS
+        )
+
+    [invest_other_text] => 
+    [consult_department] => 
+    [blood_prc] => on
+    [blood_prc_unit] => 2
+    [blood_ffp] => on
+    [blood_ffp_unit] => 2
+    [blood_other_text] => 
+    [patient_type] => OPD
+    [anesthesia] => LA
+    [dx] => xxxxx
+    [op] => xxxxxxxxx
+    [surgeon] => 64168
+    [start_datetime] => 2025-04-01T00:00
+    [end_datetime] => 2025-04-01T13:40
+    [note] => xxx
+    [post_surgery_booking] => Chantara
+    [booked_by] => 12345
+    [department] => 4
+    [department_or] => สูตินรีเวช
+    [id] => 22
+)
+Success: Data updated/deleted for ID=22

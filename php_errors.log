@@ -1,0 +1,119 @@
+[04-Apr-2025 03:19:31 Europe/Berlin] Received POST data: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [booking_type] => 1
+    [patient_id] => 10
+    [surgery_type] => Array
+        (
+            [0] => Elective
+        )
+
+    [investigations] => Array
+        (
+            [0] => CBC
+            [1] => FBS
+            [2] => PT_PTT_INR
+            [3] => LFT
+        )
+
+    [invest_other_text] => 
+    [consult_department] => 3
+    [blood_prc_unit] => 
+    [blood_ffp_unit] => 
+    [blood_other_text] => 
+    [patient_type] => OPD
+    [anesthesia] => LA
+    [dx] => xxxxxxxxxx
+    [op] => xxxxxxxxxxxxxx
+    [surgeon] => 64168
+    [start_datetime] => 2025-04-04T17:00
+    [end_datetime] => 2025-04-05T17:00
+    [note] => xxx
+    [post_surgery_booking] => ICU
+    [booked_by] => 12345
+    [department] => 7
+    [department_or] => ศัลยกรรม
+    [id] => 31
+)
+
+[04-Apr-2025 03:19:31 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list'
+[04-Apr-2025 03:22:30 Europe/Berlin] Received POST data: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [booking_type] => 2
+    [patient_id] => 9
+    [surgery_type] => Array
+        (
+            [0] => Elective
+        )
+
+    [investigations] => Array
+        (
+            [0] => CBC
+            [1] => BUN_CR
+            [2] => Electrolyte
+            [3] => LFT
+            [4] => Anti_HIV
+        )
+
+    [invest_other_text] => 
+    [consult_department] => 
+    [blood_prc] => 1
+    [blood_prc_unit] => 2
+    [blood_ffp_unit] => 
+    [blood_other_text] => 
+    [patient_type] => IPD
+    [anesthesia] => LA
+    [dx] => ผผ
+    [op] => ผผ
+    [surgeon] => 49532
+    [start_datetime] => 2025-04-10T17:00
+    [end_datetime] => 2025-04-11T17:00
+    [note] => ปปป
+    [post_surgery_booking] => ICU
+    [booked_by] => 12345
+    [department] => 5
+    [department_or] => สูตินรีเวช
+    [id] => 29
+)
+
+[04-Apr-2025 03:27:26 Europe/Berlin] Received POST data: Array
+(
+    [title] => การผ่าตัดเฉพาะทาง
+    [booking_type] => 2
+    [patient_id] => 9
+    [surgery_type] => Array
+        (
+            [0] => Elective
+        )
+
+    [investigations] => Array
+        (
+            [0] => CBC
+            [1] => BUN_CR
+            [2] => Electrolyte
+            [3] => LFT
+            [4] => Anti_HIV
+        )
+
+    [invest_other_text] => 
+    [consult_department] => 
+    [blood_prc] => 1
+    [blood_prc_unit] => 2
+    [blood_ffp_unit] => 
+    [blood_other_text] => 
+    [patient_type] => IPD
+    [anesthesia] => LA
+    [dx] => ผผ
+    [op] => ผผ
+    [surgeon] => 49532
+    [start_datetime] => 2025-04-10T10:00
+    [end_datetime] => 2025-04-11T10:00
+    [note] => ปปป
+    [post_surgery_booking] => ICU
+    [booked_by] => 12345
+    [department] => 5
+    [department_or] => ศัลยกรรม
+    [id] => 29
+)
+
